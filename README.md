@@ -29,7 +29,7 @@ Convert any color to a flat-color.
 
 OR:
 
-1. Only edit this README file.
+1. Just edit this README file.
 
 ## History
  
