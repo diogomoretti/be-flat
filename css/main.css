@@ -85,8 +85,7 @@ pre {
   width: 97%;
   padding: 0.5em;
   color: #fff;
-  font-size: 1.6em;
-  font-family: monaco, monospace;
+  font-size: 1.4em;
   overflow-x: auto;
   background: #1f2b38;
   border-radius: 5px;
@@ -95,4 +94,5 @@ pre {
 pre code {
   white-space: pre;
   margin: 1em 0;
+  font-family: Monaco, Menlo, Consolas, monospace;
 }
