@@ -1,0 +1,78 @@
+@import "grid"
+
+color-base   = #2c3e50
+color-active = #e74c3c
+shadow-base  = 7px
+font-title   = 'Concert One', cursive
+
+body
+  background: color-base
+  font-size: 62.5%
+  font-family: 'Arial', helvetica, sans-serif
+  padding: 0
+  margin: 0
+
+.wrapper
+  max-width: 1040px
+  margin: 0 auto
+  display: table
+
+.main
+  column(12)
+
+.show-code
+  column(12)
+  position: relative
+  margin-bottom: 2em
+
+.main-title
+  color: #fff
+  font-size: 10em
+  font-family: font-title
+  text-align: center
+  text-shadow: shadow-base shadow-base 0 darken(color-base, 30%)
+  text-transform: uppercase
+  margin: 1em 0 0 0
+
+.main-description
+  color: darken(color-base, 50%)
+  font-size: 2.2em
+  text-align: center
+  font-family: font-title
+  margin: 0 0 1em 0
+
+.code-help
+  padding: .5em 1em
+  position: absolute
+  border-radius: 2px
+  font-size: 1.4em
+  font-weight: bold
+
+.code-help-label
+  background: #fff
+  color: color-base
+  left: 2em
+  top: 0
+  
+.code-help-demo
+  background: color-active
+  color: #fff
+  right: 2em
+  bottom: 0
+  text-decoration: none
+  &:hover
+    background: lighten(color-active, 10%)
+
+pre
+  width: 97%
+  padding: .5em
+  color: #fff
+  font-size: 1.6em 
+  font-family: monaco, monospace
+  overflow-x: auto
+  background: darken(color-base, 30%)
+  border-radius: 5px
+  box-shadow: 5px 5px darken(color-base, 50%)
+  code
+    white-space: pre
+    margin: 1em 0
