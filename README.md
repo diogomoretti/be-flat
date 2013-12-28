@@ -1,8 +1,6 @@
 #Be Flat
 Convert any color to a flat-color.
 
-**Note:** Still not 100%. We need contributions. :)
-
 ##Demo
 [Demo Page](http://diogomoretti.github.io/Be-Flat/)
 
