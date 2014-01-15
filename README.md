@@ -31,7 +31,7 @@ OR:
 
 ## History
 
-* **2013-12-28** [Included on the Hipstyl mixins](https://github.com/jugoncalves/hipstyl) 
+* **2013-12-28:** [Included on the Hipstyl mixins](https://github.com/jugoncalves/hipstyl) 
 * **2013-10-24:** First version.
 
 ## Credits
