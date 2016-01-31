@@ -2,7 +2,7 @@
 Convert any color to a flat-color.
 
 ##Demo
-[Demo Page](http://diogomoretti.github.io/Be-Flat/)
+[Demo Page](http://diogomoretti.github.io/be-flat/)
 
 ##Usage
 **Sass** function:
@@ -31,6 +31,7 @@ OR:
 
 ## History
 
+* **2016-01-29:** Rename repo name.
 * **2013-12-28:** [Included on the Hipstyl mixins](https://github.com/jugoncalves/hipstyl) 
 * **2013-10-24:** First version.
 
