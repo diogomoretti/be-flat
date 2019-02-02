@@ -1,22 +1,27 @@
-#Be Flat
+# Be Flat
 Convert any color to a flat-color.
 
-##Demo
+## Demo
 [Demo Page](http://diogomoretti.github.io/be-flat/)
 
-##Usage
+## Usage
 **Sass** function:
 
-    @function flat($color)
-      @return darken(lighten(desaturate(saturate(lighten(desaturate($color, 25%), 10%), 20%), 30%), 26%), 25%)
+```sass
+@function flat($color)
+  @return darken(lighten(desaturate(saturate(lighten(desaturate($color, 25%), 10%), 20%), 30%), 26%), 25%)
+```
 
 **Stylus** mixin:
 
-    flat(c)
-      if dark(c)
-        darken(saturate(lighten(desaturate(lighten(desaturate(c, 40%), 10%), 20%), 20%), 20%), 20%)
-      else
-        darken(saturate(lighten(desaturate(lighten(desaturate(c, 30%), 10%), 10%), 30%), 20%), 20%)
+```stylus
+flat(c)
+  if dark(c)
+    darken(saturate(lighten(desaturate(lighten(desaturate(c, 40%), 10%), 20%), 20%), 20%), 20%)
+  else
+    darken(saturate(lighten(desaturate(lighten(desaturate(c, 30%), 10%), 10%), 30%), 20%), 20%)
+```
+
 ## Contributing
  
 1. Fork it!
